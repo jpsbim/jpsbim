@@ -1,0 +1,137 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: #fff;
+  font-family: 'Roboto';font-size: 18px;
+   
+}
+
+.container{max-width:1920px; margin:0; padding:0}
+
+
+.first_anchor{position:relative; }
+.first_anchor span{ position:absolute; top:-500px;}
+
+.achoring{ position:relative; }
+.achoring span{ position:absolute; top:-100px;}
+
+.navigation_sec{max-width:1920px; margin:0 auto; background:#f6f6f6; border-bottom:3px solid #fecb45; position:fixed; z-index:9999; width:100%; margin-bottom:140px!important}
+.navigation_sec .sticky { width:1920px; z-index:1000; margin:0 auto}
+.navigation_sec .navbar{background:#f6f6f6; max-width:1280px; margin:0 auto}
+.navigation_sec .navbar li a{text-transform:uppercase; letter-spacing:2px; margin-right:24px; border-bottom:3px solid #f6f6f6; font-family: 'Oswald';font-size: 18px;}
+.navigation_sec .navbar li a:hover{border-bottom:3px solid #565656; transition:0.5s}
+
+
+
+
+/* aboutus */
+.aboutus{background:#fff; clear:both;}
+.aboutus .aboutus_info{max-width:1280px; margin:0 auto; color:#000; padding-top: 110px}
+.aboutus .aboutus_info h3{font-size:34px; letter-spacing:2px; text-transform:uppercase; text-align:left; color:#000; padding:30px 20px; font-family:Ropa Sans; font-weight:lighter !important;}
+.aboutus .aboutus_info p{padding:0 20px 20px 20px}
+
+
+/* services */
+.services{background:#fff; clear:both; max-width:1280px; margin:0 auto; }
+.services h3{font-size:34px; letter-spacing:2px; text-transform:uppercase; text-align:left; color:#000; padding:40px 20px 10px 30px; font-family:Ropa Sans; font-weight:lighter !important}
+.services .services_info{max-width:1280px; margin:0 auto; color:#000;}
+.services .services_info h4{font-size:28px; letter-spacing:2px; text-transform:uppercase; text-align:left; color:#000; padding:10px 16px; font-family:Ropa Sans; font-weight:lighter !important}
+.services .services_info p{padding:0 20px 20px 16px}
+.services .services_info ul{margin:0; padding-left:30px}
+.services .services_info li{padding-bottom:10px}
+.services #row  {
+    display: table-row;
+    }
+
+.services #left_col, .services #right_col, .services #middle_col {
+    display: table-cell;
+    }
+.services #left_col{background: #f7f7f7;}
+.services #middle_col{background: #fcfcfc;}
+.services #right_col{background: #f9f9f9;}
+
+.services #left_col:hover, .services #middle_col:hover, .services #right_col:hover{background:#fecb45; transition:0.6s }
+.services #left_col h4, .services #middle_col h4, .services #right_col h4{border-bottom:3px solid #fecb45; padding:20px 0 10px 10px}
+.services #left_col p, .services #middle_col p, .services #right_col p{padding-top:20px}
+
+
+/*image gallery */
+.work_gallery{background:#fff; padding:30px 0 40px 0;}
+.work_gallery h3{font-size:34px; letter-spacing:2px; text-transform:uppercase; text-align:center; color:#000; padding:20px; font-family:Ropa Sans; font-weight:lighter !important}
+.work_gallery img{display: block; margin-left: auto; margin-right: auto;}
+.work_gallery .carousel-caption{left:0; right:0; position:relative}
+.work_gallery .carousel-caption h4{color:#000; font-size:28px}
+.work_gallery .carousel-caption p{color:#000; font-size:16px}
+.work_gallery .carousel-indicators li{background:#000; width:30px;height:5px; border-radius:8px}
+.work_gallery .carousel-indicators .active{background:#fdca53}
+.work_gallery .carousel-control-next-icon,.work_gallery .carousel-control-prev-icon{display:inline-block;width:75px;height:75px;}
+.work_gallery .carousel-control-prev-icon{background-image:url(../images/gallery_lt_arrow.png);}
+.work_gallery .carousel-control-next-icon{background-image:url(../images/gallery_rt_arrow.png)}
+
+
+
+/* clients */
+.clients{background:#f9f9f9; padding:30px 0 40px 0;}
+.clients h3{font-size:34px; letter-spacing:2px; text-transform:uppercase; text-align:center; color:#000; padding:20px; font-family:Ropa Sans; font-weight:lighter !important}
+.clients img{display: block; margin-left: auto; margin-right: auto;}
+.clients .clients_info{max-width:1280px; margin:0 auto;}
+.clients .clients_info img{text-align:center!important; margin:auto!important}
+
+/* clients */
+.Contactus{background:#fff; padding:30px 0 40px 0; max-width:1200px; margin:0 auto}
+.Contactus h3{font-size:34px; letter-spacing:2px; text-transform:uppercase; text-align:center; color:#000; padding:20px; font-family:Ropa Sans; font-weight:lighter !important}
+.Contactus .Contactus_info{max-width:1280px; margin:0 auto; }
+.Contactus .Contactus_info p{color:#000}
+.Contactus .Contactus_info .Contactus_emailphone{display:block!important}
+.Contactus .Contactus_info .Contactus_form{clear:both!important; float:left;margin-bottom:40px!important;}
+.Contactus .Contactus_info .Contactus_form label{color:#000}
+.Contactus .Contactus_info .jps_btn{background:#000; color:#fdca52; border-radius:8px;  padding:10px 40px; font-weight:bold; letter-spacing:2px; text-transform:uppercase}
+.Contactus .Contactus_info .jps_btn:hover{background:#fdca52;color:#000; transition:0.3s}
+
+
+
+
+
+/* FOOTER */
+.footer_section {
+  padding: 25px 0;
+  background-color: #494848;
+  text-align:center; 
+  clear:both;
+  font-size:16px
+}
+
+
+/* END FOOTER */
+
+
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+ 
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 475px) {
+
+.work_gallery .carousel-inner img {width: 90%; height: 90%;}
+.work_gallery .carousel-control-next, .work_gallery .carousel-control-prev{width:25%; top:50%}
+
+}
+
+@media (max-width: 850px) {
+.Contactus .Contactus_info{padding:20px}
+}
+
+@media (max-width: 800px) {
+.navbar-toggler
+}
+
+
+@media (max-width: 642px) {
+.aboutus .aboutus_info h3, .services h3, .work_gallery h3, .clients h3, .Contactus h3 {font-size:28px;}
+.services .services_info h4{font-size:22px}
+}
